@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "src/variables";
 .App{
+    font-family: Montserrat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +9,8 @@
     text-align: center;
     width: 100vw;
     height: 100vh;
-    background-image: url('images/backgrounds/sunrise.jpg');
+    //background-image: url('images/backgrounds/sunrise.jpg');
+    background:linear-gradient(to bottom right, $grad1, $grad2);
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
