@@ -1,0 +1,36 @@
+@import "src/variables";
+.Current{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 90vw;
+    height: 40vh;
+    background-color: $teaGreen;
+    align-self: center;
+    color: $candy;
+    box-shadow: 5px 5px 2px $candy;
+    border-radius: 10px;
+    h1{
+        font-weight:500;
+    }
+}
+
+@media screen and (max-width:500px){
+    .Current{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        width: 90vw;
+        height: 35vh;
+        background-color: $teaGreen;
+        align-self: center;
+        color: $candy;
+        box-shadow: 5px 5px 2px $candy;
+        border-radius: 10px;
+        h1{
+            font-weight:500;
+        }
+    }
+}
+
+   

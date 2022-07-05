@@ -1,0 +1,64 @@
+@import "src/variables";
+
+.CurrTemp{
+    width: 30vw;
+    padding-right: 1em;
+    padding-top: 5%;
+    border-right: 1px dashed;
+    h1{
+        font-size: 6.5vw;
+        font-weight: 900;
+    }
+}
+
+.CurrConditions{
+    text-align: center;
+    vertical-align: middle;
+    h1{
+        align-self:center;
+        font-size: 12vw;
+        word-wrap: break-word;
+        
+    }
+    h2{
+        font-size: 2vh;
+        word-wrap: break-word;
+        margin-bottom: 2em;
+
+    }
+    width:60vW;
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:500px){
+    .CurrTemp{
+        width: 30vh;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10vh;
+        border-right: 1px dashed;
+        h1{
+            font-size: 6.5vh;
+            font-weight: 900;
+        }
+    }
+    
+    .CurrConditions{
+        text-align: center;
+        vertical-align: middle;
+        h1{
+            align-self:center;
+            font-size: 12vh;
+            word-wrap: break-word;
+            
+        }
+        h2{
+            font-size: 2vh;
+            word-wrap: break-word;
+            margin-bottom: 2em;
+    
+        }   
+}
+}

@@ -1,0 +1,53 @@
+@import "src/variables";
+.Time{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 30px;
+    height: 40vh;
+    width: 20vw;
+    word-wrap:break-word;
+    text-align: start;
+    h1{
+        font-size:5vw;
+        color:$candy;
+        word-wrap:break-word;
+        width: inherit;
+    
+    }   
+    h2{
+        font-size:3vw;
+        word-wrap:break-word;
+        width: inherit;
+
+    }
+}
+
+@media screen and (max-width:500px){
+    .Time{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 2vh;
+        height: 40vh;
+        width: 25vw;
+        word-wrap:break-word;
+        text-align:left;
+        h1{
+            font-size:5vh;
+            color:$candy;
+            word-wrap:break-word;
+            width: inherit;
+        
+        }   
+        h2{
+            font-size:3vh;
+            word-wrap:break-word;
+            width: inherit;
+    
+        }
+    }
+    
+}
+

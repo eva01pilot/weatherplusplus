@@ -1,0 +1,27 @@
+.container{
+    width: 90vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "day1 day2 day3 ";
+    position: absolute;
+    top:37vh;
+    left:0vw;
+    padding-left: 0%;
+}
+
+@media screen and (max-width:500px){
+    .container{
+        width: 90vw;
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "day1 day2 day3 ";
+        position: absolute;
+        top:30vh;
+        left:0vw;
+        padding-left: 0%;
+    }
+}
